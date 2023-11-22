@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="500.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.SavedController">
+   <children>
+      <Pane layoutX="44.0" prefHeight="527.0" prefWidth="243.0">
+         <children>
+            <ListView layoutX="8.0" layoutY="66.0" prefHeight="453.0" prefWidth="228.0" />
+            <TextField layoutX="8.0" layoutY="14.0" prefHeight="38.0" prefWidth="228.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="305.0" prefHeight="527.0" prefWidth="558.0">
+         <children>
+            <AnchorPane prefHeight="112.0" prefWidth="558.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="29.0" text="Nghĩa của từ" textFill="#22387e">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="saveButton" layoutX="361.0" layoutY="67.0" mnemonicParsing="false" text="save" />
+                  <Button layoutX="423.0" layoutY="67.0" mnemonicParsing="false" text="remove" />
+                  <Button layoutX="492.0" layoutY="67.0" mnemonicParsing="false" text="modify" />
+               </children>
+            </AnchorPane>
+            <WebView layoutX="7.0" layoutY="118.0" prefHeight="395.0" prefWidth="545.0" />
+         </children>
+      </Pane>
+      <AnchorPane prefHeight="527.0" prefWidth="10.0">
+         <children>
+            <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="40.0" text="translate" />
+            <Button layoutX="8.0" layoutY="78.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="36.0" text="Dịch" />
+            <Button layoutX="8.0" layoutY="130.0" mnemonicParsing="false" text="Lưu" />
+            <Button layoutX="8.0" layoutY="182.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="36.0" text="Lịch sử" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="500.0" prefWidth="840.0">
+         <children>
+            <Pane layoutX="44.0" prefHeight="527.0" prefWidth="243.0">
+               <children>
+                  <ListView layoutX="8.0" layoutY="66.0" prefHeight="453.0" prefWidth="228.0" />
+                  <TextField layoutX="8.0" layoutY="14.0" prefHeight="38.0" prefWidth="228.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="305.0" prefHeight="527.0" prefWidth="558.0">
+               <children>
+                  <AnchorPane prefHeight="112.0" prefWidth="558.0">
+                     <children>
+                        <Label layoutX="34.0" layoutY="29.0" text="Nghĩa của từ" textFill="#22387e">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="saveButton1" layoutX="361.0" layoutY="67.0" mnemonicParsing="false" text="save" />
+                        <Button layoutX="423.0" layoutY="67.0" mnemonicParsing="false" text="remove" />
+                        <Button layoutX="492.0" layoutY="67.0" mnemonicParsing="false" text="modify" />
+                     </children>
+                  </AnchorPane>
+                  <WebView layoutX="7.0" layoutY="118.0" prefHeight="395.0" prefWidth="545.0" />
+               </children>
+            </Pane>
+            <AnchorPane prefHeight="527.0" prefWidth="10.0">
+               <children>
+                  <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="40.0" text="translate" />
+                  <Button layoutX="8.0" layoutY="78.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="36.0" text="Dịch" />
+                  <Button layoutX="8.0" layoutY="130.0" mnemonicParsing="false" text="Lưu" />
+                  <Button layoutX="8.0" layoutY="182.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="36.0" text="Lịch sử" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
